@@ -1,0 +1,47 @@
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+body{
+}
+header{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    background-image: url(/img/bg.jpg);
+    text-align: center;
+}
+
+.virsus{
+    display: inline-block;
+    width: 800px;
+    margin: 0 calc( (100% - 800px) / 2 );
+}
+.virsus > img{
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.virsus > h1{
+    display: inline-block;
+    width: 100%;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.virsus > p{
+    display: inline-block;
+    width: 100%;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: gray;
+}
+.virsus > clock{
+    display: inline-block;
+    
+}   
