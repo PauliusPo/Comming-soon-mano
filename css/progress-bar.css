@@ -13,7 +13,7 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             padding-top: 10px;
             scroll-padding-bottom: 10px;
-            color: gray;
+            color: black;
         }
     .progress-bar > .texts > .value {
             display: inline-block;
@@ -23,7 +23,8 @@
         display: inline-block;
         width: 100%;
         height: 6px;
-        background-color: gray;
+        background-color: lightgrey;
+        border-radius: 4px;
     }
     .progress-bar > .bar > .value {
             display: inline-block;
